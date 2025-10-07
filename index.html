@@ -5,7 +5,7 @@
         <title>Festivern</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Frijole&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
         <style>
             *{
                 box-sizing: border-box;
@@ -17,47 +17,69 @@
                 --verde:#1dc350;
                 --lila: #abaaef;
             }
+            body{
+                background: radial-gradient(circle at top, indigo 0%, #0b0620 80%);
+                color: whitesmoke;
+                font-family: "M PLUS Rounded 1c", sans-serif;
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+            }
             div{
-                background-color: var(--lila);
                 width: 350px;
                 margin:auto;
-                font-family: "Frijole", system-ui;
-                font-weight: 400;
+                background-color: rgba(3, 2, 5, 0.8);
+                border-radius: 25px;
+                box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+                padding: 20px;            
                 font-style: normal;
             }
-            h1, h2{
-                text-align: center;
-                background: var(--negro);
-            }
+            
             h1{
-                padding: 20px 0 5px 0;
-                color:var(--verde);
-                font-size: 3rem;
-            }
-            h2{
-                padding: 5px 30px 20px 30px;
-                color: white;
-                font-size: 1rem;
-            }
-            section{
-                font-size: 15px;
-                padding: 12px 0 0 0;
-                background: var(--verde);
-            }
-            h3{
-                padding: 10px 0 10px 0;
-                color: var(--negro);
-                font-family: 'Courier New';
                 text-align: center;
-                font-size: 1em;
+                padding: 10px 0 5px 0;
+                color: whitesmoke;
+                font-weight: 900;
+                font-size: 4rem;
+                margin-bottom: 5px;
+                text-shadow: 0 0 10px rgba(29,195,80,0.6);
             }
+            h2 {
+                font-weight: 700;
+                align-items: center;
+                font-size: 1rem;
+                border: 2px solid var(--verde);
+                border-radius: 50px;
+                padding: 8px 16px;
+                color: var(--lila);
+                text-align: center;
+                 background: rgba(255, 255, 255, 0.05);
+            }
+             h3 {
+                font-weight: 300;
+                padding: 15px 0 10px 0;
+                color: var(--verde);
+                font-size: 1em;
+                text-align: center;
+            }
+            section {
+                padding: 5px;
+                margin-bottom: 18px;
+                border-radius: 16px;
+                border: 1px solid rgba(255,255,255,0.1);
+                background: rgba(255, 255, 255, 0.05);
+
+            }
+            
             h4{
-                padding: 5px 0 5px 20px;
-                background: #1dc350;
-                color: #030205;
+                border-radius: 10px;
+                text-align: center;
+                padding: 8px 0;
+                color: var(--negro);
+                background: var(--verde);
                 font-size: 1em;
             }
-            ul, li{
+            /*ul, li{
                 padding: 5px 0 5px 0;
                 list-style-type: none;
                 background: var(--negro);
@@ -65,29 +87,51 @@
                 font-family: 'Courier New';
                 text-align: center;
                 font-size: 1em;
-            }
+            }*/
             ul{
-                padding: 15px 0 15px 0;
+                list-style: none;
+                padding: 12px 0 12px 0;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 6px;
+            }
+            li{
+                padding: 5px 0;
+                border-radius: 20px;
+                color: whitesmoke;
+                text-align: center;
+                font-size: 0.9em;
+            }
+            li:nth-child(odd) {
+            font-weight: 800;      
+            }
+
+            li:nth-child(even) {
+            font-weight: 400;       
             }
             footer{
-                padding: 10px 0 10px 0;
+                padding: 0 0 5px 0;
                 text-align: center;
                 font-size: 10px;
             }
             h5{
                 padding: 0 0 5px 0;
                 font-size: 1.25em;
+                color: var(--verde);
             }
             h6{
-                font-family: 'Courier New';
                 font-size: 1em;
+            }
+            a{
+                color: var(--lila);
             }
         </style>
     </head>
     <body>
         <div>
         <h1>Festivern</h1>
-    <h2>28, 29, 30 i 31 de Desembre de 2024</h2>
+    <h2>28, 29, 30 i 31 Desembre 2024</h2>
    <h3>Tavernes de la Valldigna</h3>
    </header>
    <main>
@@ -147,7 +191,7 @@
    </main>
    <footer>
    <h5> "XVIII EDICIÓ"</h5>
-   <h6>Abonaments a la venta <a href="http://">www.entradas.codetickets.com</a></h6>
+   <h6>Abonaments a la venta <a href="http://www.entradas.codetickets.com">açi</a></h6>
    </footer>
    </div>
 </body>
